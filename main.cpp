@@ -29,6 +29,9 @@ void init_hardware() {
     // 1. Initialize standard stdio
     stdio_init_all();
 
+    // Give the USB serial connection 5 seconds to enumerate and catch startup text
+    sleep_ms(5000);
+
     // 2. Initialize UART for Inter-Board Communication
     uart_init(UART_ID, BAUD_RATE);
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
