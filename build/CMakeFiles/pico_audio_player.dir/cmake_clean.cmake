@@ -174,6 +174,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c.o.d"
   "CMakeFiles/pico_audio_player.dir/main.cpp.o"
   "CMakeFiles/pico_audio_player.dir/main.cpp.o.d"
+  "CMakeFiles/pico_audio_player.dir/my_hw_config.c.o"
+  "CMakeFiles/pico_audio_player.dir/my_hw_config.c.o.d"
   "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o"
   "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o.d"
   "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o"

@@ -2333,6 +2333,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+my_hw_config.o: my_hw_config.c.o
+.PHONY : my_hw_config.o
+
+# target to build an object file
+my_hw_config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/my_hw_config.c.o
+.PHONY : my_hw_config.c.o
+
+my_hw_config.i: my_hw_config.c.i
+.PHONY : my_hw_config.i
+
+# target to preprocess a source file
+my_hw_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/my_hw_config.c.i
+.PHONY : my_hw_config.c.i
+
+my_hw_config.s: my_hw_config.c.s
+.PHONY : my_hw_config.s
+
+# target to generate assembly for a file
+my_hw_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/my_hw_config.c.s
+.PHONY : my_hw_config.c.s
+
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o
 
@@ -2922,6 +2946,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_hw_config.o"
+	@echo "... my_hw_config.i"
+	@echo "... my_hw_config.s"
 	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o"
 	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i"
 	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s"
