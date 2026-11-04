@@ -17,6 +17,14 @@ add_executable(pico_audio_player
     main.cpp  
 )
 
+# Configure FatFs_SPI to use custom hardware configuration from the project root
+target_compile_definitions(FatFs_SPI PRIVATE
+    SD_CARD_CUSTOM_H="my_hw_config.h"
+)
+target_include_directories(FatFs_SPI PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
 # Link required libraries for hardware peripherals, I2S audio, and FatFs SPI submodule
 target_link_libraries(pico_audio_player 
     pico_stdlib    
