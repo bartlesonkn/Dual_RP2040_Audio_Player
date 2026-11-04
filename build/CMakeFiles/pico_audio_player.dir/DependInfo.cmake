@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
+  "/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S" "/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o"
   "/home/codespace/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
   "/home/codespace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
   "/home/codespace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
@@ -78,6 +79,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
+  "PICO_EXTRAS=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -95,6 +97,10 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/codespace/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/codespace/pico-sdk/lib/tinyusb/src"
+  "pico_extras/src/rp2_common/pico_audio_i2s"
+  "/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/include"
+  "/home/codespace/pico-extras/src/common/pico_audio/include"
+  "/home/codespace/pico-extras/src/common/pico_util_buffer/include"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include"
@@ -166,6 +172,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o.d"
+  "/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o.d"
   "/home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d"
   "/home/codespace/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d"
   "/home/codespace/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d"
@@ -255,6 +263,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o.d"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o.d"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o" "gcc" "CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o.d"
+  "/home/codespace/pico-extras/src/common/pico_audio/audio.cpp" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o.d"
   "/home/codespace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/workspaces/Dual_RP2040_Audio_Player/main.cpp" "CMakeFiles/pico_audio_player.dir/main.cpp.o" "gcc" "CMakeFiles/pico_audio_player.dir/main.cpp.o.d"
   )

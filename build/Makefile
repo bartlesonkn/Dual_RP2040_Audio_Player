@@ -207,6 +207,164 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named pico_scanvideo_scanvideo_pio_h
+
+# Build rule for target.
+pico_scanvideo_scanvideo_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_scanvideo_scanvideo_pio_h
+.PHONY : pico_scanvideo_scanvideo_pio_h
+
+# fast build rule for target.
+pico_scanvideo_scanvideo_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build.make pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build
+.PHONY : pico_scanvideo_scanvideo_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pico_audio_i2s_audio_i2s_pio_h
+
+# Build rule for target.
+pico_audio_i2s_audio_i2s_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_audio_i2s_audio_i2s_pio_h
+.PHONY : pico_audio_i2s_audio_i2s_pio_h
+
+# fast build rule for target.
+pico_audio_i2s_audio_i2s_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build
+.PHONY : pico_audio_i2s_audio_i2s_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pico_audio_pwm_audio_pwm_pio_h
+
+# Build rule for target.
+pico_audio_pwm_audio_pwm_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_audio_pwm_audio_pwm_pio_h
+.PHONY : pico_audio_pwm_audio_pwm_pio_h
+
+# fast build rule for target.
+pico_audio_pwm_audio_pwm_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_pwm/CMakeFiles/pico_audio_pwm_audio_pwm_pio_h.dir/build
+.PHONY : pico_audio_pwm_audio_pwm_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pico_audio_spdif_audio_spdif_pio_h
+
+# Build rule for target.
+pico_audio_spdif_audio_spdif_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_audio_spdif_audio_spdif_pio_h
+.PHONY : pico_audio_spdif_audio_spdif_pio_h
+
+# fast build rule for target.
+pico_audio_spdif_audio_spdif_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build
+.PHONY : pico_audio_spdif_audio_spdif_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pico_sd_card_sd_card_pio_h
+
+# Build rule for target.
+pico_sd_card_sd_card_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_sd_card_sd_card_pio_h
+.PHONY : pico_sd_card_sd_card_pio_h
+
+# fast build rule for target.
+pico_sd_card_sd_card_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build.make pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build
+.PHONY : pico_sd_card_sd_card_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pico_scanvideo_dpi_timing_pio_h
+
+# Build rule for target.
+pico_scanvideo_dpi_timing_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_scanvideo_dpi_timing_pio_h
+.PHONY : pico_scanvideo_dpi_timing_pio_h
+
+# fast build rule for target.
+pico_scanvideo_dpi_timing_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
+.PHONY : pico_scanvideo_dpi_timing_pio_h/fast
+
+home/codespace/pico-extras/src/common/pico_audio/audio.o: home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.o
+
+# target to build an object file
+home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o
+
+home/codespace/pico-extras/src/common/pico_audio/audio.i: home/codespace/pico-extras/src/common/pico_audio/audio.cpp.i
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.i
+
+# target to preprocess a source file
+home/codespace/pico-extras/src/common/pico_audio/audio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.i
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.cpp.i
+
+home/codespace/pico-extras/src/common/pico_audio/audio.s: home/codespace/pico-extras/src/common/pico_audio/audio.cpp.s
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.s
+
+# target to generate assembly for a file
+home/codespace/pico-extras/src/common/pico_audio/audio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.s
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.cpp.s
+
+home/codespace/pico-extras/src/common/pico_audio/audio_utils.o: home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio_utils.o
+
+# target to build an object file
+home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o
+.PHONY : home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o
+
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.o: home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.o
+
+# target to build an object file
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o
+
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.i: home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.i
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.i
+
+# target to preprocess a source file
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.i
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.i
+
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.s: home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.s
+
+# target to generate assembly for a file
+home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s
+.PHONY : home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s
+
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.o: home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.o
+
+# target to build an object file
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o
+
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.i: home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.i
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.i
+
+# target to preprocess a source file
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.i
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.i
+
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.s: home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.s
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.s
+
+# target to generate assembly for a file
+home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.s
+.PHONY : home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.s
+
 home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
@@ -2497,11 +2655,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... pico_audio_i2s_audio_i2s_pio_h"
+	@echo "... pico_audio_pwm_audio_pwm_pio_h"
+	@echo "... pico_audio_spdif_audio_spdif_pio_h"
+	@echo "... pico_scanvideo_dpi_timing_pio_h"
+	@echo "... pico_scanvideo_scanvideo_pio_h"
+	@echo "... pico_sd_card_sd_card_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
 	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... pico_audio_player"
+	@echo "... home/codespace/pico-extras/src/common/pico_audio/audio.o"
+	@echo "... home/codespace/pico-extras/src/common/pico_audio/audio.i"
+	@echo "... home/codespace/pico-extras/src/common/pico_audio/audio.s"
+	@echo "... home/codespace/pico-extras/src/common/pico_audio/audio_utils.o"
+	@echo "... home/codespace/pico-extras/src/common/pico_util_buffer/buffer.o"
+	@echo "... home/codespace/pico-extras/src/common/pico_util_buffer/buffer.i"
+	@echo "... home/codespace/pico-extras/src/common/pico_util_buffer/buffer.s"
+	@echo "... home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.o"
+	@echo "... home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.i"
+	@echo "... home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.s"
 	@echo "... home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"

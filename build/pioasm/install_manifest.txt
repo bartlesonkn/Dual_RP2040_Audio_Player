@@ -1,0 +1,5 @@
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm-install/pioasm/pioasm
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm-install/pioasm/pioasmTargets.cmake
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm-install/pioasm/pioasmConfig.cmake
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

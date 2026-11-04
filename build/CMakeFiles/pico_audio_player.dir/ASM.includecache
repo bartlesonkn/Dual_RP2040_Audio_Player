@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S
+hardware/regs/addressmap.h
+/home/codespace/pico-extras/src/common/pico_audio/hardware/regs/addressmap.h
+hardware/regs/sio.h
+/home/codespace/pico-extras/src/common/pico_audio/hardware/regs/sio.h
+
 /home/codespace/pico-sdk/src/boards/include/boards/pico.h
 
 /home/codespace/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h

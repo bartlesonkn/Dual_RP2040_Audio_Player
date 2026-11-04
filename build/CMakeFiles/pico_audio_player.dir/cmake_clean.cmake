@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o.d"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o.d"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o"
+  "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.c.o.d"
   "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
   "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d"
   "CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"

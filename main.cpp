@@ -33,7 +33,7 @@ volatile bool is_paused = false;
 
 struct audio_buffer_pool* init_i2s_audio() {
     printf("[LOG] Initializing I2S audio format configuration...\n");
-    audio_format_st audio_format = {
+    audio_format_t audio_format = {
         .sample_freq = SAMPLE_RATE,
         .format = AUDIO_BUFFER_FORMAT_PCM_S16,
         .channel_count = 2
@@ -50,7 +50,7 @@ struct audio_buffer_pool* init_i2s_audio() {
         return NULL;
     }
 
-    audio_i2s_config_st config = {
+    audio_i2s_config_t config = {
         .data_pin = I2S_DIN_PIN,
         .clock_pin_base = I2S_BCK_PIN,
         .dma_channel = 0,
@@ -72,7 +72,6 @@ struct audio_buffer_pool* init_i2s_audio() {
 
 void init_hardware() {
     stdio_init_all();
-    // Extended sleep to allow USB CDC enumeration to stabilize
     for (int i = 5; i > 0; i--) {
         printf("[LOG] Booting in %d seconds...\n", i);
         sleep_ms(1000);

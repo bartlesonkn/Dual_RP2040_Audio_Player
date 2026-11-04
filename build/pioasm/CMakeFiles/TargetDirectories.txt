@@ -1,0 +1,7 @@
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/pioasm.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/edit_cache.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/rebuild_cache.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/list_install_components.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/install.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/install/local.dir
+/workspaces/Dual_RP2040_Audio_Player/build/pioasm/CMakeFiles/install/strip.dir
