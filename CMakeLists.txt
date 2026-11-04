@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-# Pull in Raspberry Pi Pico SDK (ensure PICO_SDK_PATH is set in your environment)
+# Pull in Raspberry Pi Pico SDK (requires PICO_SDK_PATH environment variable)
 include(pico_sdk_import.cmake)
 
 project(pico_audio_player C CXX ASM)
@@ -8,14 +8,15 @@ project(pico_audio_player C CXX ASM)
 # Initialize the Pico SDK
 pico_sdk_init()
 
-# Define the executable target and include all necessary source files
+# Add Carl Kugler's FatFs SPI library submodule
+add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+
+# Define the executable target (only main.cpp is needed since the submodule handles diskio/ff)
 add_executable(pico_audio_player 
     main.cpp  
-    diskio.c  
-    ff.c  
 )
 
-# Link required libraries for hardware peripherals, FatFs, and I2S audio
+# Link required libraries for hardware peripherals, I2S audio, and FatFs SPI submodule
 target_link_libraries(pico_audio_player 
     pico_stdlib   
     hardware_spi   
@@ -23,7 +24,7 @@ target_link_libraries(pico_audio_player
     hardware_pio   
     hardware_dma   
     pico_audio_i2s  
-    fatfs  
+    FatFs_SPI  
 )
 
 # Enable USB standard output for serial logging/debugging and disable UART stdio
