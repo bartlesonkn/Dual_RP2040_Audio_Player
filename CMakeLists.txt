@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 
-# Pull in Raspberry Pi Pico SDK (requires PICO_SDK_PATH environment variable)
+# Pull in Raspberry Pi Pico SDK and Pico Extras
 include(pico_sdk_import.cmake)
+include(pico_extras_import.cmake)
 
 project(pico_audio_player C CXX ASM)
 
@@ -18,11 +19,11 @@ add_executable(pico_audio_player
 
 # Link required libraries for hardware peripherals, I2S audio, and FatFs SPI submodule
 target_link_libraries(pico_audio_player 
-    pico_stdlib   
-    hardware_spi   
-    hardware_uart   
-    hardware_pio   
-    hardware_dma   
+    pico_stdlib    
+    hardware_spi    
+    hardware_uart    
+    hardware_pio    
+    hardware_dma    
     pico_audio_i2s  
     FatFs_SPI  
 )
