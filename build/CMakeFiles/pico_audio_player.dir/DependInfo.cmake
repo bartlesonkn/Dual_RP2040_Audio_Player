@@ -91,6 +91,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_THREAD_LOCAL_THREAD_POINTER_ARM_AEABI_CONFIRMED=1"
   "PICO_USE_BLOCKED_RAM=0"
   "PICO_XIP_RAM=0"
+  "SD_CARD_CUSTOM_H=\"my_hw_config.h\""
   )
 
 # The include file search paths:
@@ -104,6 +105,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver"
   "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include"
+  "/workspaces/Dual_RP2040_Audio_Player"
   "/home/codespace/pico-sdk/src/common/pico_stdlib_headers/include"
   "/home/codespace/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/codespace/pico-sdk/src/common/pico_base_headers/include"

@@ -1,7 +1,5 @@
-#pragma once
-#include "hw_config.h"
+#include "my_hw_config.h"
 
-// Define your SD card SPI configuration matching your setup in main.cpp
 static spi_t spis[] = {
     {
         .hw_inst = spi1,

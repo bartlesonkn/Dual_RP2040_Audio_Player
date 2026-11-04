@@ -12,9 +12,10 @@ pico_sdk_init()
 # Add Carl Kugler's FatFs SPI library submodule
 add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
 
-# Define the executable target (only main.cpp is needed since the submodule handles diskio/ff)
+# Define the executable target including main application code and hardware configuration source
 add_executable(pico_audio_player 
     main.cpp  
+    my_hw_config.c
 )
 
 # Configure FatFs_SPI using INTERFACE properties since it's an interface target
