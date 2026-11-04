@@ -17,11 +17,11 @@ add_executable(pico_audio_player
     main.cpp  
 )
 
-# Configure FatFs_SPI to use custom hardware configuration from the project root
-target_compile_definitions(FatFs_SPI PRIVATE
+# Configure FatFs_SPI using INTERFACE properties since it's an interface target
+target_compile_definitions(FatFs_SPI INTERFACE
     SD_CARD_CUSTOM_H="my_hw_config.h"
 )
-target_include_directories(FatFs_SPI PRIVATE
+target_include_directories(FatFs_SPI INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
