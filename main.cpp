@@ -7,18 +7,15 @@
 #include "ff.h"
 
 #define MINIMP3_IMPLEMENTATION
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wstringop-overflow"
 #include "minimp3.h"
+#pragma GCC diagnostic pop
 
 #define UART_ID uart0
 #define BAUD_RATE 115200
 #define UART_TX_PIN 0
 #define UART_RX_PIN 1
-
-#define SD_SPI spi1
-#define SD_SCK_PIN 6
-#define SD_MOSI_PIN 7
-#define SD_MISO_PIN 4
-#define SD_CS_PIN 5
 
 #define I2S_DIN_PIN 26
 #define I2S_BCK_PIN 27
@@ -82,15 +79,8 @@ void init_hardware() {
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
-    printf("[LOG] Initializing SPI1 for SD Card (SCK:%d, MOSI:%d, MISO:%d, CS:%d)...\n", SD_SCK_PIN, SD_MOSI_PIN, SD_MISO_PIN, SD_CS_PIN);
-    spi_init(SD_SPI, 10000000); 
-    gpio_set_function(SD_SCK_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(SD_MOSI_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(SD_MISO_PIN, GPIO_FUNC_SPI);
-      
-    gpio_init(SD_CS_PIN);
-    gpio_set_dir(SD_CS_PIN, GPIO_OUT);
-    gpio_put(SD_CS_PIN, 1);
+    // NOTE: Manual SD card SPI initialization has been removed. 
+    // Carl Kugler's FatFs_SPI library handles SPI1 and pin multiplexing via my_hw_config.c.
 
     audio_pool = init_i2s_audio();
     printf("[LOG] Hardware initialization sequence completed.\n");
@@ -137,7 +127,8 @@ int main() {
     
     FATFS fs;
     printf("[LOG] Attempting FatFs f_mount()...\n");
-    FRESULT fr = f_mount(&fs, "", 1);
+    // Pass logical drive "0" to match .pcName = "0" in my_hw_config.c
+    FRESULT fr = f_mount(&fs, "0", 1);
     if (fr != FR_OK) {
         printf("[LOG ERROR] f_mount failed with error code: %d. Check SD card wiring or formatting.\n", fr);
     } else {

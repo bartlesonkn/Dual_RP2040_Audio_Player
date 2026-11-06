@@ -6,7 +6,7 @@ static spi_t spis[] = {
         .sck_gpio = 6,
         .mosi_gpio = 7,
         .miso_gpio = 4,
-        .baud_rate = 1 * 1000 * 1000  // Lowered to 1 MHz for reliable SD card initialization handshake
+        .baud_rate = 500 * 1000  // Adjusted to 500 kHz for breakout level-shifter compatibility
     }
 };
 

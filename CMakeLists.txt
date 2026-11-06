@@ -9,8 +9,8 @@ project(pico_audio_player C CXX ASM)
 # Initialize the Pico SDK
 pico_sdk_init()
 
-# Add Carl Kugler's FatFs SPI library submodule
-add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+# Add Carl Kugler's FatFs SPI library subdirectory cleanly
+add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico)
 
 # Define the executable target including main application code and hardware configuration source
 add_executable(pico_audio_player 
@@ -18,9 +18,10 @@ add_executable(pico_audio_player
     my_hw_config.c
 )
 
-# Configure FatFs_SPI using INTERFACE properties since it's an interface target
+# Configure FatFs_SPI using INTERFACE properties with debug printing enabled
 target_compile_definitions(FatFs_SPI INTERFACE
     SD_CARD_CUSTOM_H="my_hw_config.h"
+    USE_DBG_PRINTF=1
 )
 target_include_directories(FatFs_SPI INTERFACE
     ${CMAKE_CURRENT_SOURCE_DIR}

@@ -92,6 +92,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_USE_BLOCKED_RAM=0"
   "PICO_XIP_RAM=0"
   "SD_CARD_CUSTOM_H=\"my_hw_config.h\""
+  "USE_DBG_PRINTF=1"
   )
 
 # The include file search paths:
