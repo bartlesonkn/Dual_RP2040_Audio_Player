@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 #include "hardware/spi.h"
+#include "hardware/watchdog.h"
 #include "pico/audio_i2s.h"
 #include "ff.h"
 
@@ -79,31 +81,113 @@ void init_hardware() {
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
-    // NOTE: Manual SD card SPI initialization has been removed. 
-    // Carl Kugler's FatFs_SPI library handles SPI1 and pin multiplexing via my_hw_config.c.
-
     audio_pool = init_i2s_audio();
     printf("[LOG] Hardware initialization sequence completed.\n");
 }
 
+void stream_mp3_file(const char* filename) {
+    FIL file;
+    FRESULT fr = f_open(&file, filename, FA_READ);
+    if (fr != FR_OK) {
+        printf("[LOG ERROR] Could not open file '%s'. FatFs error: %d\n", filename, fr);
+        printf("  - Error 3  (FR_NOT_READY): SD card hardware not responding (check SPI wiring/power).\n");
+        printf("  - Error 4  (FR_NO_FILE): File not found on the SD card.\n");
+        return;
+    }
+
+    printf("[LOG] Starting playback stream for: %s\n", filename);
+    
+    mp3dec_t mp3;
+    mp3dec_init(&mp3);
+
+    #define READ_BUF_SIZE 4096
+    uint8_t *read_buf = (uint8_t*)malloc(READ_BUF_SIZE + MINIMP3_MAX_SAMPLES_PER_FRAME * 2);
+    if (!read_buf) {
+        printf("[LOG ERROR] Failed to allocate read buffer memory!\n");
+        f_close(&file);
+        return;
+    }
+
+    UINT bytes_read = 0;
+    f_read(&file, read_buf, READ_BUF_SIZE, &bytes_read);
+    int bytes_left = bytes_read;
+    uint8_t *read_ptr = read_buf;
+
+    is_playing = true;
+
+    while (is_playing) {
+        // Feed the watchdog during long audio loops so playback doesn't trigger a timeout reset
+        watchdog_update();
+
+        if (is_paused) {
+            sleep_ms(50);
+            continue;
+        }
+
+        // Refill buffer from SD card when running low
+        if (bytes_left < 1024 && !f_eof(&file)) {
+            memmove(read_buf, read_ptr, bytes_left);
+            UINT br = 0;
+            f_read(&file, read_buf + bytes_left, READ_BUF_SIZE - bytes_left, &br);
+            bytes_left += br;
+            read_ptr = read_buf;
+        }
+
+        if (bytes_left <= 0) {
+            break; // Reached end of file
+        }
+
+        mp3dec_frame_info_t info;
+        int16_t pcm[MINIMP3_MAX_SAMPLES_PER_FRAME * 2];
+        
+        int samples_decoded = mp3dec_decode_frame(&mp3, read_ptr, bytes_left, pcm, &info);
+
+        if (samples_decoded > 0) {
+            struct audio_buffer *buffer = take_audio_buffer(audio_pool, true);
+            int16_t *buffer_s16 = (int16_t*)buffer->buffer->bytes;
+            
+            int samples_to_copy = samples_decoded * info.channels;
+            for (int i = 0; i < samples_to_copy; i++) {
+                buffer_s16[i] = pcm[i];
+            }
+            buffer->sample_count = samples_decoded;
+            
+            give_audio_buffer(audio_pool, buffer);
+
+            int bytes_consumed = info.frame_bytes;
+            if (bytes_consumed <= 0) break;
+            read_ptr += bytes_consumed;
+            bytes_left -= bytes_consumed;
+        } else {
+            // Resync by advancing 1 byte if frame decode fails
+            read_ptr++;
+            bytes_left--;
+        }
+    }
+
+    free(read_buf);
+    f_close(&file);
+    printf("[LOG] Playback finished for: %s\n", filename);
+    is_playing = false;
+}
+
 void process_control_command(const char* cmd) {
     printf("[LOG UART RX] Received command string: %s\n", cmd);
+    
     if (strncmp(cmd, "PLAY:", 5) == 0) {
-        printf("Executing Play: %s\n", &cmd[5]);
-        is_playing = true;
-        is_paused = false;
-    } else if (strcmp(cmd, "PAUSE") == 0) {
+        const char* filename = &cmd[5];
+        stream_mp3_file(filename);
+    } 
+    else if (strcmp(cmd, "PAUSE") == 0) {
         is_paused = !is_paused;
         audio_i2s_set_enabled(!is_paused);
         printf("State: Paused = %d\n", is_paused);
-    } else if (strcmp(cmd, "STOP") == 0 || strcmp(cmd, "MUTE") == 0) {
+    } 
+    else if (strcmp(cmd, "STOP") == 0 || strcmp(cmd, "MUTE") == 0) {
+        is_playing = false;
         is_paused = true;
         audio_i2s_set_enabled(false);
         printf("Audio Muted / Stopped.\n");
-    } else if (strncmp(cmd, "SKIP", 4) == 0) {
-        printf("Skipping to next track...\n");
-    } else if (strncmp(cmd, "BACK", 4) == 0) {
-        printf("Returning to previous track...\n");
     }
 }
 
@@ -125,18 +209,25 @@ void poll_uart_commands() {
 int main() {
     init_hardware();
     
+    // Enable hardware watchdog (2-second timeout protection against locks)
+    watchdog_enable(2000, 1);
+    printf("[LOG] Hardware watchdog enabled (2s timeout active).\n");
+
     FATFS fs;
-    printf("[LOG] Attempting FatFs f_mount()...\n");
-    // Pass logical drive "0" to match .pcName = "0" in my_hw_config.c
-    FRESULT fr = f_mount(&fs, "0", 1);
+    printf("[LOG] Registering FatFs logical drive (lazy mount mode opt=0)...\n");
+    // opt = 0 defers hardware handshake until f_open(), ensuring clean boots without locking up
+    FRESULT fr = f_mount(&fs, "0:", 0);
     if (fr != FR_OK) {
-        printf("[LOG ERROR] f_mount failed with error code: %d. Check SD card wiring or formatting.\n", fr);
+        printf("[LOG ERROR] f_mount registration failed with code: %d\n", fr);
     } else {
-        printf("[LOG] FatFs mounted successfully!\n");
+        printf("[LOG] FatFs logical drive registered successfully on drive 0:.\n");
     }
 
-    printf("[LOG] Entering main application loop.\n");
+    printf("[LOG] Entering main application loop. Send commands via UART (e.g., PLAY:song.mp3)\n");
     while (true) {
+        // Feed the watchdog continuously to confirm normal execution
+        watchdog_update();
+        
         poll_uart_commands();
         tight_loop_contents();
     }

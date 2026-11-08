@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/workspaces/Dual_RP2040_Audio_Player/build/pico_extras/cmake_install.cmake")
   include("/workspaces/Dual_RP2040_Audio_Player/build/pico-sdk/cmake_install.cmake")
-  include("/workspaces/Dual_RP2040_Audio_Player/build/build/cmake_install.cmake")
+  include("/workspaces/Dual_RP2040_Audio_Player/build/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/cmake_install.cmake")
 
 endif()
 

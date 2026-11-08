@@ -277,7 +277,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
+  "/workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeLists.txt"
   "/workspaces/Dual_RP2040_Audio_Player/pico_extras_import.cmake"
   "/workspaces/Dual_RP2040_Audio_Player/pico_sdk_import.cmake"
   )
@@ -429,7 +429,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico_extras/src/rp2_common/usb_device/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico_extras/src/rp2_common/usb_device_msc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -447,4 +447,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/DependInfo.cmake"
   "pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/DependInfo.cmake"
   "pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/DependInfo.cmake"
+  "no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeFiles/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h.dir/DependInfo.cmake"
   )

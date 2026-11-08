@@ -285,6 +285,19 @@ pico_scanvideo_dpi_timing_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
 .PHONY : pico_scanvideo_dpi_timing_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h
+
+# Build rule for target.
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h
+
+# fast build rule for target.
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeFiles/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h.dir/build.make no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeFiles/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h.dir/build
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h/fast
+
 home/codespace/pico-extras/src/common/pico_audio/audio.o: home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o
 .PHONY : home/codespace/pico-extras/src/common/pico_audio/audio.o
 
@@ -1085,6 +1098,30 @@ home/codespace/pico-sdk/src/rp2040/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : home/codespace/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.o: home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.o
+
+# target to build an object file
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o
+
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.i: home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.i
+
+# target to preprocess a source file
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i
+
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.s: home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.s
+
+# target to generate assembly for a file
+home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s
+.PHONY : home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s
+
 home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
 
@@ -1556,6 +1593,30 @@ home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/codespace/pico
 home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.o: home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.o
+
+# target to build an object file
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o
+
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.i: home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.i
+
+# target to preprocess a source file
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i
+
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.s: home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.s
+
+# target to generate assembly for a file
+home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s
+.PHONY : home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s
 
 home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.o
@@ -2357,317 +2418,485 @@ my_hw_config.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/my_hw_config.c.s
 .PHONY : my_hw_config.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.o: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.o
 
 # target to build an object file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.i
 
 # target to preprocess a source file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i
 
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.s
 
 # target to generate assembly for a file
-no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
-.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.o: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.o
+
+# target to build an object file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.i: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i
+
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.s: no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_audio_player.dir/build.make CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s
+.PHONY : no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s
 
 # Help Target
 help:
@@ -2679,6 +2908,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h"
 	@echo "... pico_audio_i2s_audio_i2s_pio_h"
 	@echo "... pico_audio_pwm_audio_pwm_pio_h"
 	@echo "... pico_audio_spdif_audio_spdif_pio_h"
@@ -2790,6 +3020,9 @@ help:
 	@echo "... home/codespace/pico-sdk/src/rp2040/pico_platform/platform.o"
 	@echo "... home/codespace/pico-sdk/src/rp2040/pico_platform/platform.i"
 	@echo "... home/codespace/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.o"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.i"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.s"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
@@ -2849,6 +3082,9 @@ help:
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.o"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.i"
+	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.s"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/codespace/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -2949,45 +3185,66 @@ help:
 	@echo "... my_hw_config.o"
 	@echo "... my_hw_config.i"
 	@echo "... my_hw_config.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.o"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i"
-	@echo "... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.s"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.o"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.i"
+	@echo "... no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.s"
 .PHONY : help
 
 

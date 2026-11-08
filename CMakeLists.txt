@@ -9,25 +9,24 @@ project(pico_audio_player C CXX ASM)
 # Initialize the Pico SDK
 pico_sdk_init()
 
-# Add Carl Kugler's FatFs SPI library subdirectory cleanly
-add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico)
+# Add Carl Kugler's library source subdirectory
+add_subdirectory(no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src)
 
-# Define the executable target including main application code and hardware configuration source
+# Define executable target and source files
 add_executable(pico_audio_player 
     main.cpp  
     my_hw_config.c
 )
 
-# Configure FatFs_SPI using INTERFACE properties with debug printing enabled
-target_compile_definitions(FatFs_SPI INTERFACE
-    SD_CARD_CUSTOM_H="my_hw_config.h"
-    USE_DBG_PRINTF=1
-)
-target_include_directories(FatFs_SPI INTERFACE
+# Put the library's include directory FIRST so ff.c finds the exact correct ffconf.h
+target_include_directories(pico_audio_player PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/include
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver
+    ${CMAKE_CURRENT_SOURCE_DIR}/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source
 )
 
-# Link required libraries for hardware peripherals, I2S audio, and FatFs SPI submodule
+# Link required hardware libraries and the library target
 target_link_libraries(pico_audio_player 
     pico_stdlib    
     hardware_spi    
@@ -35,10 +34,10 @@ target_link_libraries(pico_audio_player
     hardware_pio    
     hardware_dma    
     pico_audio_i2s  
-    FatFs_SPI  
+    no-OS-FatFS-SD-SDIO-SPI-RPi-Pico  
 )
 
-# Enable USB standard output for serial logging/debugging and disable UART stdio
+# Enable USB standard output and disable UART stdio
 pico_enable_stdio_usb(pico_audio_player 1)
 pico_enable_stdio_uart(pico_audio_player 0)
 

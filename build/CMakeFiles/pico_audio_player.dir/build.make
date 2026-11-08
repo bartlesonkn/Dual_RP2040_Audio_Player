@@ -1386,187 +1386,313 @@ CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c -o CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.s
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: CMakeFiles/pico_audio_player.dir/flags.make
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.i
 
-CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.s
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o: /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o -MF CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o.d -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o -c /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c > CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.i
+
+CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/Dual_RP2040_Audio_Player/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c -o CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.s
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o: /home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o -MF CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o.d -o CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o -c /home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c > CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.i
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c -o CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.s
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o: CMakeFiles/pico_audio_player.dir/flags.make
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o: /home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o: CMakeFiles/pico_audio_player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o -MF CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o.d -o CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o -c /home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c > CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.i
+
+CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c -o CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.s
 
 # Object files for target pico_audio_player
 pico_audio_player_OBJECTS = \
@@ -1665,19 +1791,28 @@ pico_audio_player_OBJECTS = \
 "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o" \
 "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o" \
 "CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o" \
-"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o"
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o" \
+"CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o" \
+"CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o" \
+"CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o"
 
 # External object files for target pico_audio_player
 pico_audio_player_EXTERNAL_OBJECTS =
@@ -1777,19 +1912,28 @@ pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-extr
 pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio.cpp.o
 pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_audio/audio_utils.S.o
 pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-extras/src/common/pico_util_buffer/buffer.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
-pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ff.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffsystem.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/ff15/source/ffunicode.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/dma_interrupts.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_card.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/sd_timeouts.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/rp2040_sdio.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SDIO/sd_card_sdio.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/my_spi.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_card_spi.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/sd_driver/SPI/sd_spi.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crash.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/crc.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/f_util.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/ff_stdio.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/file_stream.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/glue.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_debug.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/my_rtc.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/src/util.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c.o
+pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/home/codespace/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c.o
 pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/build.make
 pico_audio_player.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 pico_audio_player.elf: /home/codespace/pico-sdk/src/rp2040/pico_platform/memmap_default.ld
@@ -1838,7 +1982,7 @@ pico_audio_player.elf: /home/codespace/pico-sdk/src/rp2_common/pico_standard_lin
 pico_audio_player.elf: /home/codespace/pico-sdk/src/rp2_common/pico_standard_link/script_include/sections_stack.incl
 pico_audio_player.elf: /home/codespace/pico-sdk/src/rp2_common/pico_standard_link/script_include/set_memory_locations.incl
 pico_audio_player.elf: CMakeFiles/pico_audio_player.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Linking CXX executable pico_audio_player.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Dual_RP2040_Audio_Player/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Linking CXX executable pico_audio_player.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_audio_player.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /workspaces/Dual_RP2040_Audio_Player/build/pico_audio_player.elf > pico_audio_player.dis
 	/usr/bin/arm-none-eabi-objdump -d /workspaces/Dual_RP2040_Audio_Player/build/pico_audio_player.elf >> pico_audio_player.dis

@@ -1,4 +1,6 @@
 # Hashes of file build rules.
+ec5ef9bc2a8d32d17fa5a2eef22fa717 no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/CMakeFiles/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico_rp2040_sdio_pio_h
+13a9021e231b5232507718add94142ff no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src/rp2040_sdio.pio.h
 0127089412938e6c37244ececc491fd1 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 ab1a471a61c98cba857c8eb904bd5b37 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 ae7a48f58ebdf371188554fd40a4ea1a pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
